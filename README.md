@@ -8,9 +8,13 @@
 # INSTALL NODE.JS, DOCKER AND DOCKER HYPERLEDGER IMAGES 
 
 UBUNTU
+
+```     
     curl -O https://hyperledger.github.io/composer/unstable/prereqs-ubuntu.sh
     chmod u+x prereqs-ubuntu.sh
     ./prereqs-ubuntu.sh
+```
+
     
 MAC OS
     curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
@@ -24,4 +28,5 @@ MAC OS
     
 # INSTANTIATE BLOCKCHAIN AS A SERVICE -
 
-Login to https://console.bluemix.net/dashboard/apps/
+Login to https://console.bluemix.net
+Access https://console.bluemix.net/catalog/services/blockchain then hit create, choose Starter Plan (FREE)
