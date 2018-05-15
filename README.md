@@ -1,8 +1,8 @@
-# senior hyperledger development quick start
+# senior hyperledger development quick guide
 
 
 # SUPORTED OPERATING SYSTEMS
-- UBUNTU : Ubuntu Linux 14.04 / 16.04 LTS ONLY !!!
+- Ubuntu Linux 14.04 / 16.04 LTS ONLY !!!
 - MAC OS X 10.12+
 
 # INSTALL NODE.JS, DOCKER AND DOCKER HYPERLEDGER IMAGES 
@@ -52,7 +52,7 @@ Access https://console.bluemix.net/catalog/services/blockchain then hit create, 
 ![BAAS](https://cdn-images-1.medium.com/max/1600/1*OwZiPHH00uUO0ALStas1Ew.gif)
 
 
-# DOWNLOAD BLOCKCHAIN CONNECTION CREDENTIALS 
+# DOWNLOAD BLOCKCHAIN CREDENTIALS CREATE PUB AND PRIVATE KEYS 
 
 1. Launch your blockchain service, and click on connection profile, and view as raw JSON
 2. Scroll all the way down until you see “registrar” and then under “enrollId” will be “enrollSecret”. Copy this secret, we will need it for the next step
@@ -70,8 +70,15 @@ rename the downloaded JSON file to ‘connection-profile.json’
 ```
 composer card create -f ca.card -p connection-profile.json -u admin -s *123456789*
 composer card import -f ca.card -c ca
+composer identity request --card ca --path ./credentials -u admin -s 123456789
 ```
 
+# UPDATE BLOCKCHAIN SERVICE WITH THE NEW PUB KEY
+
+1. Back in the IBM blockchain service, click on the members tab, then add certificate. 
+2. Go to the credentials directory, and copy and paste the contents of the ‘admin-pub.pem’ file in the certificate box. Submit the certificate and restart the peers. Note: restarting the peers takes a minute.
+
+![BAAS](https://cdn-images-1.medium.com/max/1600/1*5xSoM5S2KfJGf9T-tzYAzA.gif)
 
 
 # COMPILE THE CODE
