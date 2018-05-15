@@ -42,7 +42,7 @@ npm install -g --unsafe-perm composer-rest-server@0.19.4
 Login to https://console.bluemix.net
 Access https://console.bluemix.net/catalog/services/blockchain then hit create, choose Starter Plan (FREE)
 ```
-![BAAS](https://hackernoon.com/deploy-a-business-network-on-free-ibm-blockchain-starter-plan-93fafb3dd997)
+![BAAS](https://cdn-images-1.medium.com/max/1600/1*OwZiPHH00uUO0ALStas1Ew.gif)
 
 
 # DOWNLOAD SAMPLE PROJECT 
