@@ -27,10 +27,35 @@ MAC OS
     node --version
 ```
  
-    
+# INSTALL COMPOSER 
+```
+npm install -g --unsafe-perm composer-cli@0.19.4
+npm install -g --unsafe-perm composer-rest-server@0.19.4
+
+```
+
+
+
 # INSTANTIATE IBM BLOCKCHAIN AS A SERVICE 
 
 ```
 Login to https://console.bluemix.net
 Access https://console.bluemix.net/catalog/services/blockchain then hit create, choose Starter Plan (FREE)
 ```
+![BAAS](https://hackernoon.com/deploy-a-business-network-on-free-ibm-blockchain-starter-plan-93fafb3dd997)
+
+
+# DOWNLOAD SAMPLE PROJECT 
+```
+ curl https://github.com/plucena/senior/sampleproject.zip
+ unzip sampleproject
+ cd xxxx
+```
+
+# COMPILE THE CODE
+```
+    ./buildbanana.sh
+```
+
+
+
