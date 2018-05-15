@@ -17,6 +17,7 @@ UBUNTU
 
     
 MAC OS
+```
     curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
     touch .bash_profile
     curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
@@ -24,9 +25,12 @@ MAC OS
     nvm install --lts
     nvm use --lts
     node --version
+```
+ 
     
-    
-# INSTANTIATE BLOCKCHAIN AS A SERVICE -
+# INSTANTIATE IBM BLOCKCHAIN AS A SERVICE 
 
+```
 Login to https://console.bluemix.net
 Access https://console.bluemix.net/catalog/services/blockchain then hit create, choose Starter Plan (FREE)
+```
