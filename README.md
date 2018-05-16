@@ -98,7 +98,7 @@ composer identity request --card ca --path ./credentials -u admin -s 123456789
 ```
 
 # START AND TEST REST SERVER
-composer-rest-server -c admin@events -n never -w true
+composer-rest-server -c admin@events -n never -w true -p 80
 
 ![BAAS](https://cdn-images-1.medium.com/max/1600/1*lfkagutwWlMv--ax6SMwTQ.gif)
 
