@@ -96,3 +96,9 @@ composer identity request --card ca --path ./credentials -u admin -s 123456789
     composer card create -n events -p connection-profile.json -u admin -c ./credentials/admin-pub.pem -k ./credentials/admin-priv.pem
     composer card import -f ./admin@events.card
 ```
+
+# START AND TEST REST SERVER
+composer-rest-server -c admin@events -n never -w true
+
+![BAAS](https://cdn-images-1.medium.com/max/1600/1*lfkagutwWlMv--ax6SMwTQ.gif)
+
