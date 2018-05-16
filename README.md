@@ -36,9 +36,9 @@ npm install -g --unsafe-perm composer-rest-server@0.19.4
 
 # DOWNLOAD SAMPLE PROJECT 
 ```
- curl https://github.com/plucena/senior/raw/master/project/composer.zip
- unzip composer.zip
- cd xxxx
+curl -o- https://raw.githubusercontent.com/plucena/senior/master/project/composer.zip > composer.zip
+unzip composer.zip
+ cd Composer
 ```
 
 
@@ -83,6 +83,7 @@ composer identity request --card ca --path ./credentials -u admin -s 123456789
 
 # COMPILE THE CODE
 ```
+    chmod 777 buildbanana.sh
     ./buildbanana.sh
 ```
 
