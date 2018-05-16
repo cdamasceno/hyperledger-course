@@ -36,8 +36,8 @@ npm install -g --unsafe-perm composer-rest-server@0.19.4
 
 # DOWNLOAD SAMPLE PROJECT 
 ```
- curl https://github.com/plucena/senior/sampleproject.zip
- unzip sampleproject
+ curl https://github.com/plucena/senior/raw/master/project/composer.zip
+ unzip composer.zip
  cd xxxx
 ```
 
