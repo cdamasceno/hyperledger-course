@@ -87,5 +87,12 @@ composer identity request --card ca --path ./credentials -u admin -s 123456789
     ./buildbanana.sh
 ```
 
-
-
+# INSTALL THE BNA FILE ON BLOCKCHAIN SERVICE
+```
+    composer card create -f adminCard.card -p connection-profile.json -u admin -c ./credentials/admin-pub.pem -k ./credentials/admin-priv.pem --role PeerAdmin --role ChannelAdmin
+    composer card import -f adminCard.card -c adminCard
+    composer network install -c adminCard -a events@0.0.8.bna
+    composer network start -c adminCard -n events -V 0.0.8 -A admin -C ./credentials/admin-pub.pem -f delete_me.card
+    composer card create -n events -p connection-profile.json -u admin -c ./credentials/admin-pub.pem -k ./credentials/admin-priv.pem
+    composer card import -f ./admin@events.card
+```
