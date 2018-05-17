@@ -1,9 +1,11 @@
 
+INSTALACAO DOCKER LOCALHOST
+
 fabric crated using tools scripts
 
 code based on
 
-https://hyperledger.github.io/composer/tutorials/developer-tutorial
+https://hyperledger.github.io/composer/latest/installing/development-tools.html
 
 1 - composer archive create -t dir -n .
 
