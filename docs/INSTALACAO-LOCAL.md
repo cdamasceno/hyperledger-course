@@ -4,7 +4,7 @@
 https://hyperledger.github.io/composer/latest/installing/development-tools.html
 
 
-git clone github.com/plucena/nozluz3
+git clone https://github.com/plucena/nosluz3
 
 
 1 - composer archive create -t dir -n .
