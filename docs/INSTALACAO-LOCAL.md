@@ -11,7 +11,7 @@ git clone https://github.com/plucena/nosluz3
 
 2 - composer network install -c PeerAdmin@hlfv1 -a tutorial-network@0.0.1.bna 
 
-3 - composer network start -c PeerAdmin@hlfv1  -n tutorial-network -V 0.0.1 -A admin -S lalala
+3 - composer network start -c PeerAdmin@hlfv1  -n tutorial-network -V 0.0.1 -A admin -S adminpw
 
 4 -composer card import -f ./admin@tutorial-network.card
 
