@@ -15,6 +15,6 @@ git clone github.com/plucena/nozluz3
 
 4 -composer card import -f ./admin@tutorial-network.card
 
-5 - composer network ping --card admin@tutorial-network
+5 - composer network ping -c admin@tutorial-network
 
 6 - composer-rest-server -c admin@tutorial-network -p 80 -n "never"
