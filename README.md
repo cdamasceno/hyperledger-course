@@ -16,7 +16,7 @@ UBUNTU
 ```
 
     
-MAC OS
+REQUIRES NODE 10!
 ```
     curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
     touch .bash_profile
