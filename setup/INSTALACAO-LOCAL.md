@@ -44,7 +44,7 @@ fazer login em nova sesão
     ./startFabric.sh
     
     
- use docker ps para ver se todos os dockers estão ok
+ use *docker ps* para ver se todos os 4 dockers estão ok
  
  ![Fabric](https://raw.githubusercontent.com/plucena/hyperledger-course/master/setup/img/fabric1.png)
 
