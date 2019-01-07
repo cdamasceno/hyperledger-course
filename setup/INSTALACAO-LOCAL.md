@@ -46,7 +46,7 @@ fazer login em nova sesão
     
  use docker ps para ver se todos os dockers estão ok
  
- ![Fabric](/hyperledger-course/setup/img/fabric1.png)
+ ![Fabric](https://raw.githubusercontent.com/plucena/hyperledger-course/master/setup/img/fabric1.png)
 
 
 
