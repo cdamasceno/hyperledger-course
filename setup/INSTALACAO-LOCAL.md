@@ -2,7 +2,7 @@
 # INSTALACAO DOCKER LOCALHOST
 
 
-Instalar o Fabric 1.2
+# Instalar o Fabric 1.2
 
 mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
 
@@ -17,8 +17,12 @@ export FABRIC_VERSION=hlfv12
 ./downloadFabric.sh
 
 
+# Instalar o Composer
+
 https://hyperledger.github.io/composer/latest/installing/development-tools.html
 
+
+# Testar um projeto
 
 git clone https://github.com/plucena/nosluz3
 
