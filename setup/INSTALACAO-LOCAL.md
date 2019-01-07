@@ -40,7 +40,7 @@ export FABRIC_VERSION=hlfv12
 
 # Instalar o Composer
 
-instalação como usuario coum.  root não funciona
+instalação obrigatoriamente como usuario comum.  root não funciona
 
 npm install -g composer-cli@0.20
 
