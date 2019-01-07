@@ -71,17 +71,18 @@ instalação obrigatoriamente como usuario comum.  root não funciona
 
 # Testar um projeto
 
-git clone https://github.com/plucena/nosluz3
+    git clone https://github.com/plucena/composer-example
+    
+    cd composer-example
+    
+    composer archive create -t dir -n .
 
+    composer network install -c PeerAdmin@hlfv1 -a tutorial-network@0.0.1.bna 
 
-1 - composer archive create -t dir -n .
+    composer network start -c PeerAdmin@hlfv1  -n tutorial-network -V 0.0.1 -A admin -S adminpw
 
-2 - composer network install -c PeerAdmin@hlfv1 -a tutorial-network@0.0.1.bna 
+    composer card import -f ./admin@tutorial-network.card
 
-3 - composer network start -c PeerAdmin@hlfv1  -n tutorial-network -V 0.0.1 -A admin -S adminpw
+    composer network ping -c admin@tutorial-network
 
-4 -composer card import -f ./admin@tutorial-network.card
-
-5 - composer network ping -c admin@tutorial-network
-
-6 - composer-rest-server -c admin@tutorial-network -p 80 -n "never"
+    composer-rest-server -c admin@tutorial-network -p 80 -n "never"
