@@ -52,7 +52,9 @@ fazer login em nova sesão
 
 # Instalar o Composer
 
-instalação obrigatoriamente como usuario comum.  root não funciona
+instalação obrigatoriamente como usuario comum.  root não funciona. 
+
+cd para o home do seu usuario. Ex: *cd /home/blockchain/* 
 
     npm install -g composer-cli@0.20
 
