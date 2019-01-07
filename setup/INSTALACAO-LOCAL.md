@@ -5,7 +5,9 @@ Requisitos gerais
 
 - A ferramenta de desenvolvimento Composer só funciona no  Ubuntu Linux 14.04 / 16.04 LTS (both 64-bit), ou Mac OS 10.12. Caso não tenha este como seu sistema operacional recomendamos fazer uma instalação numa VM - http://br.releases.ubuntu.com/16.04/
 
-- A instalcação deve ser feita como usuario comum. Não funciona como root
+- A instalcação deve ser feita como usuario comum. Não funciona como root. Usar seu usuario. Ou criar um usuario novo. Exemplo:
+adduser blockchain
+usermod -aG sudo blockchain
 
 # Instalando os pre-requisitos 
 
