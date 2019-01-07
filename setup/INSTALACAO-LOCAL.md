@@ -75,11 +75,12 @@ cd para o home do seu usuario. Ex: *cd /home/blockchain/*
     
     ./createPeerAdminCard.sh
 
-    composer card list
-    
+a chave deve ter sido gerada e importada com sucesso
 
 # Testar um projeto
 
+    cd  ~
+    
     git clone https://github.com/plucena/composer-example
     
     cd composer-example
