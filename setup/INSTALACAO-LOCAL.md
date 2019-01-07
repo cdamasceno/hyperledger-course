@@ -1,6 +1,22 @@
 
 # INSTALACAO DOCKER LOCALHOST
 
+
+Instalar o Fabric 1.2
+
+mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
+
+curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/packages/fabric-dev-servers/fabric-dev-servers.tar.gz
+
+tar -xvf fabric-dev-servers.tar.gz
+
+cd ~/fabric-dev-servers
+
+export FABRIC_VERSION=hlfv12
+
+./downloadFabric.sh
+
+
 https://hyperledger.github.io/composer/latest/installing/development-tools.html
 
 
