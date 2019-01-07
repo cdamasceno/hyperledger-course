@@ -40,6 +40,13 @@ fazer login em nova sesão
     export FABRIC_VERSION=hlfv12
 
     ./downloadFabric.sh
+    
+    ./
+    
+    
+ use docker ps para ver se todos os dockers estão ok
+ 
+ ![Fabric](/hyperledger-course/setup/img/fabric1.png)
 
 
 
