@@ -23,8 +23,11 @@ O Hyperledger roda como Docker e o Composer depende do node e de varias bibliote
 
     ./prereqs-ubuntu.sh
 
+fazer logout da sessão
 
 # Instalar o Fabric 1.2
+
+fazer login em nova sesão
 
     mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
 
