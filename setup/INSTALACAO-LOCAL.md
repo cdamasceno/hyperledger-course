@@ -41,7 +41,7 @@ fazer login em nova sesão
 
     ./downloadFabric.sh
     
-    ./
+    ./startFabric.sh
     
     
  use docker ps para ver se todos os dockers estão ok
