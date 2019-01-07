@@ -17,26 +17,26 @@ usermod -aG sudo blockchain
 
 O Hyperledger roda como Docker e o Composer depende do node e de varias bibliotecas criptográficas. Um unico script instala todas as dependencias necessárias:
 
-curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
+    curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
 
-chmod u+x prereqs-ubuntu.sh
+    chmod u+x prereqs-ubuntu.sh
 
-./prereqs-ubuntu.sh
+    ./prereqs-ubuntu.sh
 
 
 # Instalar o Fabric 1.2
 
-mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
+    mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
 
-curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/packages/fabric-dev-servers/fabric-dev-servers.tar.gz
+    curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/packages/fabric-dev-servers/fabric-dev-servers.tar.gz
 
-tar -xvf fabric-dev-servers.tar.gz
+    tar -xvf fabric-dev-servers.tar.gz
 
-cd ~/fabric-dev-servers
+    cd ~/fabric-dev-servers
 
-export FABRIC_VERSION=hlfv12
+    export FABRIC_VERSION=hlfv12
 
-./downloadFabric.sh
+    ./downloadFabric.sh
 
 
 
