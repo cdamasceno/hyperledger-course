@@ -77,6 +77,9 @@ cd para o home do seu usuario. Ex: *cd /home/blockchain/*
 
 a chave deve ter sido gerada e importada com sucesso
 
+ ![Fabric](https://raw.githubusercontent.com/plucena/hyperledger-course/master/setup/img/composer.png)
+
+
 # Testar um projeto
 
     cd  ~
