@@ -3,7 +3,7 @@
 
 Requisitos gerais 
 
-- 4 GB ou mais de RAM local ou na VM
+-  Recomendavel 8 GB de RAM local ou na VM
 
 - A ferramenta de desenvolvimento Composer só funciona no  Ubuntu Linux 14.04 / 16.04 LTS (both 64-bit), ou Mac OS 10.12 ou mais novo. Caso não tenha estes como seu sistema operacional recomendamos fazer uma instalação numa VM - http://br.releases.ubuntu.com/16.04/
 
