@@ -86,16 +86,19 @@ a chave deve ter sido gerada e importada com sucesso
     
     git clone https://github.com/plucena/composer-example
     
-    cd composer-example
+    cd ~/composer-example/animaltracking-model/
     
     composer archive create -t dir -n .
 
-    composer network install -c PeerAdmin@hlfv1 -a tutorial-network@0.0.1.bna 
+    composer network install -c PeerAdmin@hlfv1 -a animaltracking-model@0.2.3.bna
 
-    composer network start -c PeerAdmin@hlfv1  -n tutorial-network -V 0.0.1 -A admin -S adminpw
+    composer network start -c PeerAdmin@hlfv1  -n animaltracking-model -V 0.2.3 -A admin -S adminpw
 
     composer card import -f ./admin@tutorial-network.card
 
     composer network ping -c admin@tutorial-network
 
-    composer-rest-server -c admin@tutorial-network -p 80 -n "never"
+    composer-rest-server -c admin@tutorial-network -p 8080 -n "never"
+    
+    
+ os smart contracts estão disponiveis no localhost:8080 ou ipdoservidor:8080
