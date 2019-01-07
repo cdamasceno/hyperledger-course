@@ -9,9 +9,9 @@ Requisitos gerais
 
 - A instalcação deve ser feita como usuario comum. Não funciona como root. Usar seu usuario. Ou criar um usuario novo. Exemplo:
 
-adduser blockchain
+    adduser blockchain
 
-usermod -aG sudo blockchain
+    usermod -aG sudo blockchain
 
 # Instalando os pre-requisitos 
 
