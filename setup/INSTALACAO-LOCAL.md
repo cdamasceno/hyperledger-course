@@ -58,7 +58,7 @@ instalação obrigatoriamente como usuario comum.  root não funciona
 
 # Gerando as chaves de acesso do Fabric ao Composer
 
-    cd ~/fabric-dev-servers
+   cd ~/fabric-dev-servers
     
     export FABRIC_VERSION=hlfv12
     
