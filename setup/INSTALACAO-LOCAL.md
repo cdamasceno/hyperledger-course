@@ -1,5 +1,21 @@
 
-# INSTALACAO DOCKER LOCALHOST
+# INSTALACAO DO HYPERLEDGER FABRIC E DO COMPOSER
+
+Requisitos gerais 
+
+- A ferramenta de desenvolvimento Composer só funciona no  Ubuntu Linux 14.04 / 16.04 LTS (both 64-bit), ou Mac OS 10.12
+
+- A instalcação deve ser feita como usuario comum. Não funciona como root
+
+# Instalando os pre-requisitos 
+
+O Hyperledger roda como Docker e o Composer depende do node e de varias bibliotecas criptográficas. Um unico script instala todas as dependencias necessárias:
+
+curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
+
+chmod u+x prereqs-ubuntu.sh
+
+./prereqs-ubuntu.sh
 
 
 # Instalar o Fabric 1.2
