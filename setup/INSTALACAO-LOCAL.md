@@ -44,13 +44,13 @@ export FABRIC_VERSION=hlfv12
 
 instalação obrigatoriamente como usuario comum.  root não funciona
 
-npm install -g composer-cli@0.20
+    npm install -g composer-cli@0.20
 
-npm install -g composer-rest-server@0.20
+    npm install -g composer-rest-server@0.20
 
-npm install -g generator-hyperledger-composer@0.20
+    npm install -g generator-hyperledger-composer@0.20
 
-npm install -g yo
+    npm install -g yo
 
 
 # Gerando as chaves de acesso do Fabric ao Composer
