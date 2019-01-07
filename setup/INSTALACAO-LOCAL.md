@@ -37,6 +37,7 @@ export FABRIC_VERSION=hlfv12
 ./downloadFabric.sh
 
 
+
 # Instalar o Composer
 
 instalação como usuario coum.  root não funciona
@@ -48,6 +49,12 @@ npm install -g composer-rest-server@0.20
 npm install -g generator-hyperledger-composer@0.20
 
 npm install -g yo
+
+
+# Gerando as chaves de acesso do Fabric ao Composer
+
+
+
 
 
 # Testar um projeto
