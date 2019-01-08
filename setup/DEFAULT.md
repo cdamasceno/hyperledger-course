@@ -1,5 +1,4 @@
-# senior hyperledger development quick guide
-
+# INSTALAÇÃO PARA DEPLOY NO IBM CLOUD
 
 # SUPORTED OPERATING SYSTEMS
 - Ubuntu Linux 14.04 / 16.04 LTS ONLY !!!
