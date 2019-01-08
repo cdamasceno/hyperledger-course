@@ -94,11 +94,11 @@ a chave deve ter sido gerada e importada com sucesso
 
     composer network start -c PeerAdmin@hlfv1  -n animaltracking-model -V 0.2.3 -A admin -S adminpw
 
-    composer card import -f ./admin@tutorial-network.card
+    composer card import -f ./admin@animaltracking-model.card
 
-    composer network ping -c admin@tutorial-network
+    composer network ping -c admin@animaltracking-model
 
-    composer-rest-server -c admin@tutorial-network -p 8080 -n "never"
+    composer-rest-server -cadmin@animaltracking-model -p 8080 -n "never"
     
     
  os smart contracts estão disponiveis no localhost:8080 ou ipdoservidor:8080
