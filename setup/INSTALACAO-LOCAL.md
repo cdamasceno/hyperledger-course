@@ -102,3 +102,6 @@ a chave deve ter sido gerada e importada com sucesso
     
     
  os smart contracts estão disponiveis no localhost:8080 ou ipdoservidor:8080
+ 
+  ![Fabric](https://raw.githubusercontent.com/plucena/hyperledger-course/master/setup/img/rest.png)
+
