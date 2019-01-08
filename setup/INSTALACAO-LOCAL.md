@@ -98,7 +98,7 @@ a chave deve ter sido gerada e importada com sucesso
 
     composer network ping -c admin@animaltracking-model
 
-    composer-rest-server -cadmin@animaltracking-model -p 8080 -n "never"
+    composer-rest-server -c admin@animaltracking-model -p 8080 -n "never"
     
     
  os smart contracts estão disponiveis no localhost:8080 ou ipdoservidor:8080
